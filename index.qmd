@@ -3,7 +3,7 @@ title: Measurement and verification of environmental and social outcomes for a p
 shorttitle: Research Brief 24.08 (private draft)
 shortauthors: UNSW CSDR
 authors:
-  - name: Arlette Schram, Marianne Feoli, Ben Milligan
+  - name: Arlette Schramm, Marianne Feoli, Ben Milligan
     orcid: 0000-0003-1313-3956
     corresponding: true
     email: b.milligan@unsw.edu.au
@@ -86,7 +86,7 @@ citation:
 
 <!-- -->
 
-8.  In contrast, ESG reporting focuses on the broader disclosure of an organisation's environmental, social, and governance practices. Standards such as the Global Reporting Initiative (GRI), Sustainability Accounting Standards Board (SASB), Task Force on Climate-related Financial Disclosures (TCFD), and the Greenhouse Gas Protocol (GHG Protocol) help organisations provide transparent information on their ESG performance, manage related risks, and ensure regulatory compliance. Integrating various strategies within AIX could be beneficial to ensure robust impact measurement and verification, enhancing credibility and effectiveness in driving sustainable development:
+8.  In contrast, ESG reporting focuses on the broader disclosure of an organisation's environmental, social, and governance practices. Standards such as the Global Reporting Initiative (GRI), Sustainability Accounting Standards Board (SASB), Task Force on Climate-related Financial Disclosures (TCFD), and the Greenhouse Gas Protocol (GHG Protocol) help organisations provide structured and transparent information on their ESG performance, manage related risks, and ensure regulatory compliance. Integrating various strategies within AIX could be beneficial to ensure robust impact measurement and verification, enhancing credibility and effectiveness in driving sustainable development:
 
 ![Methodology for market studies on sustainability-related investments. Source: <https://www.eurosif.org/wp-content/uploads/2024/02/2024.02.15-Final-Report-Eurosif-Classification_2024.pdf>](media/Picture%202.png)
 
@@ -100,11 +100,11 @@ citation:
 
 12. These guidelines help generate verified scores that can be used on the AIX to assess ESG score measurement and verification, offering transparency and credibility to investors and helping them understand the efficiency and implementation of an ESG-based investment strategy. For investor reporting, standards like the UN Principles for Responsible Investment (UNPRI), the Global Impact Investing Network (GIIN), and the Impact Management Project (IMP) guide investors in aligning their strategies with responsible investment principles and measuring impact. These standards can be leveraged within the AIX marketplace to provide investors with precise, standardised data, facilitating informed decision-making and ensuring that investments, such as impact investments, meet desired social and environmental criteria.
 
-13. Regarding GHG emissions, accounting approaches range from VERRA and Accounting for Nature to the ISO standards and the EU Emissions Trading System (EU ETS). Comprehensive ecosystem assessments can rely on the System of Environmental-Economic Accounting (SEEA), which can build a critical basis for integrating more holistic and comprehensive impact assessments. While IRIS+ is commonly used to quantify or report qualitatively on the impact of impact investments, integrating SEEA can enhance the ability to assess broader ecological impacts systematically and from a more holistic perspective. Incorporating varied frameworks can support the robust and transparent outcome measurement and verification of a digital finance exchange, foster trust, and attract diverse investors.
+13. Regarding GHG emissions, accounting approaches range in scope and aims from VERRA and Accounting for Nature to the ISO standards and the EU Emissions Trading System (EU ETS). Comprehensive ecosystem assessments can rely on the System of Environmental-Economic Accounting (SEEA), which can build a critical basis for integrating more holistic and comprehensive impact assessments. While IRIS+ is commonly used to quantify or report qualitatively on the impact of impact investments, integrating SEEA can enhance the ability to assess broader ecological impacts systematically and from a more holistic perspective. Incorporating varied frameworks can support the robust and transparent outcome measurement and verification of a digital finance exchange, foster trust, and attract diverse investors.
 
 ## Categorisation of measurement and verification standards
 
-14. The current measurement and verification standards landscape for institutional investment can be differentiated based on the applied strategy (for example, ESG) or impact dimensions such as climate, ecological health, and social impact. This classification can help identify the relevant standards for each dimension, guiding principles, and frameworks. The impact dimensions cover the primary areas where impacts occur and are reported on, aligning them with the AIX project's objectives. The following illustration by the IRIS shows the interconnectedness of IRIS+ impact categories and themes as of May 2021 and can help guide meta governance structures for desired outcomes:
+14. The current measurement and verification standards landscape for institutional investment can be differentiated based on the applied strategy (for example, ESG, Triple Bottom Line), overaching goal (for example risk management, reputation, regulatory compliance) or impact dimensions such as climate, ecological health, and social impact (among others). This classification can help identify the relevant standards for each dimension, guiding principles, and frameworks. The impact dimensions cover the primary areas where impacts occur and are reported on, aligning them with the AIX project's objectives. The following illustration by the IRIS shows the interconnectedness of IRIS+ impact categories and themes as of May 2021 and can help guide meta governance structures for desired outcomes:
 
 ![Interconnectedness of IRIS+ Impact Categories and Themes as of May 2021](media/Picture%203.jpg)
 
@@ -170,18 +170,13 @@ kable(data[1:7, ], caption = "Overview of Climate-related Disclosure and Reporti
 
 24. Each framework has specific requirements for measurement and verification. IRIS+ and IMP emphasise standardised metrics and consistent data collection, with third-party audits often used for verification. SROI requires detailed data on inputs, outputs, and financial proxies, with stakeholder engagement and third-party validation. SPTF uses outreach and social responsibility indicators, with self-reporting and external audits. BIA involves a structured questionnaire and comprehensive assessment, verified through third-party audits for B Corp certification. The most widely accepted standards include IRIS+, IMP, and BIA, which are highly regarded globally among impact investors and financial institutions. SROI and SPTF are also gaining acceptance, particularly in the non-profit and microfinance sectors.
 
-25. Despite their wide acceptance, these frameworks often overlap in their methodologies and objectives. For example, IRIS+ and IMP share common elements in defining and standardising impact metrics. However, gaps remain in sector-specific metrics for niche areas and challenges in assigning monetary values to all social outcomes, as seen with SROI. Understanding these overlaps and gaps is crucial for developing a comprehensive and credible impact assessment strategy, ensuring investments align with broader social and environmental goals.
+25. Despite their wide acceptance, these frameworks often overlap in their methodologies and objectives. For example, IRIS+ and IMP share common elements in defining and standardising impact metrics. However, gaps remain in sector-specific metrics for niche areas and challenges in assigning monetary values to all social outcomes, as seen with SROI. Understanding these overlaps and gaps is crucial for developing a comprehensive and credible impact assessment strategy, ensuring investments align with broader social and environmental goals. Furthermore, Standards differ in their approach to verification and certification. Some, like ISO standards, require formal verification to certify compliance with specific criteria, ensuring that organizations meet the established standard. Others, such as the Global Reporting Initiative (GRI), are primarily guidelines that companies align with, and verification may depend on regional regulations or organizational preferences—sometimes it is required, other times optional. Verification also varies in scope: standards like GRI verify the accuracy of reported statements, ISO standards verify compliance with detailed requirements, and frameworks like Science-Based Targets initiative (SBTi) assess whether an organization's efforts genuinely aim to drive meaningful change.
 
 ## Measurement and verification: climate change and GHG emissions
 
 26. The Greenhouse Gas Protocol (GHG Protocol) and ISO 14064 are globally accepted standards and provide universal frameworks for measuring and managing emissions. The landscape of GHG accounting standards is broad, and some standards are more specific to certain regions due to factors like regulatory requirements, which entail adherence to local laws and policies. Market acceptance varies by region and is influenced by local stakeholder expectations and economic contexts. This regional differentiation ensures that standards align with unique environmental priorities, financial structures, and cultural factors, facilitating compliance and enhancing strategic implementation for organisations.
 
 27. The GHG Protocol and ISO 14064 are mature and widely adopted standards that provide comprehensive frameworks. Their global acceptance and methodologies make them essential tools for organisations committed to transparency, regulatory compliance, and effective climate action. The GHG protocol provides comprehensive standards and guidelines for organisations to quantify and report their GHG emissions, covering various sectors and activities. It provides methodologies for calculating emissions from direct (Scope 1), indirect energy (Scope 2), and other indirect sources (Scope 3).
-
-    -   ISO 14064 is an international standard developed by the International Organization for Standardization (ISO) that provides guidelines and requirements for greenhouse gas emissions and removals. ISO 14064 is divided into three parts:
-    -   ISO 14064-1: Specifies principles and requirements for quantifying and reporting GHG emissions and removals at the organisation level.
-    -   ISO 14064-2: Guides at the project level for quantifying, monitoring, and reporting GHG emission reductions or removal enhancements.
-    -   ISO 14064-3 Offers guidelines for validating and verifying GHG assertions, ensuring the accuracy and reliability of GHG reports.
 
 28. Other standards that focus on climate change and GHG emissions are outlined below:
 
@@ -209,7 +204,7 @@ kable(data[1:8, ], caption = "Overview of Climate Change and GHG Emissions Measu
 
 ## Measurement and verification of ecological health
 
-29. Standards for measuring ecological health are essential for protecting and restoring biodiversity and ecosystem services. The frameworks focus on assessing and reporting the condition of natural assets such as soils, vegetation, and fauna. The following paragraphs introduces various ecological health standards and compares them, analysing their purpose, scope, market acceptance, strengths, and weaknesses to highlight their roles in impact measurement.
+29. Standards for measuring ecological health are essential for protecting and restoring biodiversity and ecosystem services. The frameworks focus on assessing and reporting the condition of natural assets such as soils, water, vegetation, and fauna. The following paragraphs introduces various ecological health standards and compares them, analysing their purpose, scope, market acceptance, strengths, and weaknesses to highlight their roles in impact measurement.
 
 30. Accounting for Nature is a framework designed to measure and report the condition of environmental assets, offering a standardised approach to assessing ecosystem health. It encompasses a wide range of natural resources, providing data to support informed decision-making in environmental management. Its science-based methodology aims to enhance the understanding and conservation of ecosystems, aligning with global environmental policies.
 
@@ -225,7 +220,7 @@ kable(data[1:8, ], caption = "Overview of Climate Change and GHG Emissions Measu
 
 <!-- -->
 
-35. As outlined in the table below, other frameworks for nature-related measurement and verification have proliferated in recent years, with heterogenous conceptual foundations and scope.
+35. As outlined in the table below, other frameworks for nature-related measurement and verification have proliferated in recent years, with heterogeneous conceptual foundations and scope.
 
 ```{=html}
 <!--- This code reads a table from a csv file and displays it at the desired font size. Change the header.tex for PDF output
