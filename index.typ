@@ -312,12 +312,12 @@
 #show: doc => article(
   title: [Measurement and verification of environmental and social outcomes for a proposed Australian Impact Exchange],
   authors: (
-    ( name: [Arlette Schram, Marianne Feoli, Ben Milligan],
+    ( name: [Arlette Schramm, Marianne Feoli, Ben Milligan],
       affiliation: [UNSW Centre for Sustainable Development Reform],
       email: [b.milligan\@unsw.edu.au] ),
     ),
   date: [2025-01-06],
-  abstract: [Impact Exchanges require distinct measurement frameworks across asset classes (corporate securities, impact investments, commodities) due to fundamental differences in how environmental and social outcomes are quantified, verified, and reported within each market segment. We propose use of a "meta-standards" approach for incorporating measurement of environmental and social outcomes—establishing overarching principles for outcome measurement while allowing methodological flexibility - supported by a technical committee to ensure market integrity and framework interoperability. Short-term market demands for simple metrics must be balanced against systemic risks, as evidenced by carbon markets where inadequate standardization and verification led to market fragmentation and credibility issues.],
+  abstract: [Impact Exchanges require distinct measurement frameworks across asset classes (equities and corporate debt, commodities, and alternative investments) due to fundamental differences in how environmental and social outcomes are quantified, verified, and reported within each market segment. We propose use of a "meta-standards" approach for incorporating measurement of environmental and social outcomes—establishing overarching principles for outcome measurement while allowing methodological flexibility - supported by a technical committee to ensure market integrity and framework interoperability. Short-term market demands for simple metrics must be balanced against systemic risks, as evidenced by carbon markets where inadequate standardization and verification led to market fragmentation and credibility issues.],
   abstract-title: "Summary.",
   margin: (bottom: 2cm,left: 2cm,right: 2cm,top: 2cm,),
   paper: "a4",
@@ -330,9 +330,9 @@
   doc,
 )
 
-= Summary of key findings
-<summary-of-key-findings>
-- Measurement and verification of environmental and social outcomes to inform financial investment is a rapidly evolving field. A wide variety of measurement and verification methods are currently used to assess the environmental and social performance of diverse financial instruments for diverse asset classes. These methods are commonly applied as a subset of overarching frameworks and standards implementation—for positive and negative environmental, social and governance (ESG) screening, impact investment, corporate disclosure of impacts and dependencies, sustainability certification or benchmarking, and other topic areas. These frameworks and standards are characterised by highly varied degrees of: formal standardisation, public or private sector involvement, intellectual property licensing models, and transparency.
+= Key findings
+<key-findings>
+- Measurement and verification of environmental and social outcomes to inform financial investment is a rapidly evolving field. A wide variety of measurement and verification methods are currently used to assess the environmental and social performance of diverse financial instruments for diverse asset classes. These methods are commonly applied as a subset of overarching frameworks and standards implementation—for positive and negative environmental, social and governance (ESG) screening, integration of ESG factors into investment decisions, impact investment strategies, corporate disclosure of impacts and dependencies, sustainability certification or benchmarking, and other specialized approaches. They are also characterised by highly varied degrees of: formal standardisation, public or private sector involvement, intellectual property licensing models, and transparency.
 
 - Establishing public exchanges based on verified environmental and social outcomes ("Impact Exchanges") involves careful design choices—about the specific measurement and verification methods, frameworks and standards that determine market disclosures. These design choices depend fundamentally on the scope of assets or instruments that can be traded—for example Impact Exchanges focused on:
 
@@ -384,16 +384,16 @@ supplement: "Figure",
 
 + Socially responsible investing (SRI) encompasses a variety of strategies that focus on sustainability objectives alongside financial returns. These strategies range from impact investing to ESG incorporation and green/blue finance. Each strategy employs different objectives and can be applied to asset classes such as credits, publicly and privately traded securities, project-level initiatives, alternative investments, or other assets.
 
-+ Expanding the scope of the AIX from focusing solely on impact investment to include other SRI strategies can enhance its appeal and effectiveness. For example, investing in vehicles that employ ESG incorporation can encourage best-practice industry leaders by integrating ESG factors into financial analysis and investment decisions, aligning with standards like the Taskforce on Nature-related Financial Disclosures (TNFD). At the same time, ESG performance strategies can actively engage companies to improve their practices and continuously track ESG momentum. Impact investing can unlock novel nature-based solutions or encourage capital flow towards the circular economy. Green finance can fund projects with specific environmental benefits through instruments like green and climate bonds, while social finance strategies can address pressing social issues through social and impact bonds. Governance and ethical strategies, such as active ownership and corporate governance investing, can drive corporate change and align investments with personal values. Measuring and verifying impact refers to the positive environmental or social impacts of impact investment.
++ Expanding the scope of the AIX from focusing solely on impact investment to include other SRI strategies can enhance its appeal and effectiveness. For example, investing in vehicles that employ ESG incorporation can encourage best-practice industry leaders by integrating ESG factors into financial analysis and investment decision. This alignment with frameworks like the Taskforce on Nature-related Financial Disclosures (TNFD) could support investors in addressing nature-related risks and opportunities. At the same time, active ownership and shareholder engagement can incentivize companies to improve their ESG practices and create long-term value. As a distinct approach, impact investing could support nature-based solutions and drive innovation in the circular economy. Green finance can fund projects with specific environmental benefits through instruments like green and climate bonds, while social finance strategies can address pressing social issues through social and impact bonds. Governance and ethical strategies, such as active ownership and corporate governance investing, can drive corporate change and align investments with personal values.
 
 + Extending beyond impact investments can broaden the scope of the AIX and create a tailored approach to assessing and driving sustainable development outcomes overall. A comprehensive overview of suitable investment strategies to implement in AIX can be found in the tables in the Appendix.
 
-+ Impact investment focuses on key characteristics such as intentionality#footnote[Intentionality is a fundamental aspect of impact investing; investors must explicitly state their intention to generate social or environmental benefits (GIIN, 2022).];, measurability#footnote[Impact investments must have measurable outcomes, which should be quantifiable on a qualitative or quantitative basis, and performance must be reported transparently (Bundesinitiative Impact Investing; GIIN, 2022).];, additionality#footnote[Additionality refers to the unique impact an investment would only have achieved with the specific funding. Active investor engagement and sharing best practices are vital for attaining additionality and fostering growth in impact investing (Bundesinitiative Impact Investing; GIIN, 2022).] and evidence-based#footnote[Using evidence to substantiate the intended impact is essential in impact investing, which involves using data and research to guide investment decisions and prove that investments lead to meaningful social or environmental changes (GIIN, 2022).];, ensuring that investments create positive outcomes that would not occur otherwise. Impact Investments must align with fiduciary duty and social investing, which requires asset managers to act in the best interest of beneficiaries and ensure investments align with specified social or environmental objectives (Finance UNEP Initiative, 2020).
++ Impact investment focuses on key characteristics such as intentionality#footnote[Intentionality is a fundamental aspect of impact investing; investors must explicitly state their intention to generate social or environmental benefits (GIIN, 2022).];, measurability#footnote[Impact investments must have measurable outcomes, which should be quantifiable on a qualitative or quantitative basis, and performance must be regularly and transparently reported (Bundesinitiative Impact Investing; GIIN, 2022).];, additionality#footnote[Additionality refers to the unique impact an investment would only have achieved with the specific funding. Active investor engagement and sharing best practices are vital for attaining additionality and fostering growth in impact investing (Bundesinitiative Impact Investing; GIIN, 2022).] and evidence-based#footnote[Using evidence to substantiate the intended impact is essential in impact investing, which involves using data and research to guide investment decisions and prove that investments lead to meaningful social or environmental changes (GIIN, 2022).];, ensuring that investments create positive outcomes that would not occur otherwise. Impact Investments must align with fiduciary duties and social investing, which requires asset managers to act in the best interest of beneficiaries and ensure investments align with specified social or environmental objectives.
 ]
 
 #block[
 #set enum(numbering: "1.", start: 8)
-+ In contrast, ESG reporting focuses on the broader disclosure of an organisation’s environmental, social, and governance practices. Standards such as the Global Reporting Initiative (GRI), Sustainability Accounting Standards Board (SASB), Task Force on Climate-related Financial Disclosures (TCFD), and the Greenhouse Gas Protocol (GHG Protocol) help organisations provide transparent information on their ESG performance, manage related risks, and ensure regulatory compliance. Integrating various strategies within AIX could be beneficial to ensure robust impact measurement and verification, enhancing credibility and effectiveness in driving sustainable development:
++ In contrast, ESG reporting focuses on the broader disclosure of an organisation’s environmental, social, and governance practices. Standards such as the Global Reporting Initiative (GRI), Sustainability Accounting Standards Board (SASB), Task Force on Climate-related Financial Disclosures (TCFD), and the Greenhouse Gas Protocol (GHG Protocol) help organisations provide structured and transparent information on their ESG performance, manage related risks, and ensure regulatory compliance. Integrating various strategies within AIX could be beneficial to ensure robust impact measurement and verification, enhancing credibility and effectiveness in driving sustainable development:
 ]
 
 #figure([
@@ -423,14 +423,14 @@ supplement: "Figure",
 
 + These guidelines help generate verified scores that can be used on the AIX to assess ESG score measurement and verification, offering transparency and credibility to investors and helping them understand the efficiency and implementation of an ESG-based investment strategy. For investor reporting, standards like the UN Principles for Responsible Investment (UNPRI), the Global Impact Investing Network (GIIN), and the Impact Management Project (IMP) guide investors in aligning their strategies with responsible investment principles and measuring impact. These standards can be leveraged within the AIX marketplace to provide investors with precise, standardised data, facilitating informed decision-making and ensuring that investments, such as impact investments, meet desired social and environmental criteria.
 
-+ Regarding GHG emissions, accounting approaches range from VERRA and Accounting for Nature to the ISO standards and the EU Emissions Trading System (EU ETS). Comprehensive ecosystem assessments can rely on the System of Environmental-Economic Accounting (SEEA), which can build a critical basis for integrating more holistic and comprehensive impact assessments. While IRIS+ is commonly used to quantify or report qualitatively on the impact of impact investments, integrating SEEA can enhance the ability to assess broader ecological impacts systematically and from a more holistic perspective. Incorporating varied frameworks can support the robust and transparent outcome measurement and verification of a digital finance exchange, foster trust, and attract diverse investors.
++ Regarding GHG emissions, accounting approaches range in scope and aims from VERRA and Accounting for Nature to the ISO standards and the EU Emissions Trading System (EU ETS). Comprehensive ecosystem assessments can rely on the System of Environmental-Economic Accounting (SEEA), which can build a critical basis for integrating more holistic and comprehensive impact assessments. While IRIS+ is commonly used to quantify or report qualitatively on the impact of impact investments, integrating SEEA can enhance the ability to assess broader ecological impacts systematically and from a more holistic perspective. Incorporating varied frameworks can support the robust and transparent outcome measurement and verification of a digital finance exchange, foster trust, and attract diverse investors.
 ]
 
 == Categorisation of measurement and verification standards
 <categorisation-of-measurement-and-verification-standards>
 #block[
 #set enum(numbering: "1.", start: 14)
-+ The current measurement and verification standards landscape for institutional investment can be differentiated based on the applied strategy (for example, ESG) or impact dimensions such as climate, ecological health, and social impact. This classification can help identify the relevant standards for each dimension, guiding principles, and frameworks. The impact dimensions cover the primary areas where impacts occur and are reported on, aligning them with the AIX project’s objectives. The following illustration by the IRIS shows the interconnectedness of IRIS+ impact categories and themes as of May 2021 and can help guide meta governance structures for desired outcomes:
++ The current measurement and verification standards landscape for institutional investment can be differentiated based on the applied strategy (for example, ESG, Triple Bottom Line), overaching goal (for example risk management, reputation, regulatory compliance) or impact dimensions such as climate, ecological health, and social impact (among others). This classification can help identify the relevant standards for each dimension, guiding principles, and frameworks. The impact dimensions cover the primary areas where impacts occur and are reported on, aligning them with the AIX project’s objectives. The following illustration by the IRIS shows the interconnectedness of IRIS+ impact categories and themes as of May 2021 and can help guide meta governance structures for desired outcomes:
 ]
 
 #figure([
@@ -451,7 +451,7 @@ supplement: "Figure",
 ]
 
 #figure([
-#box(image("media/Picture 4.jpg"))
+#box(image("media/Picture 4.png"))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -516,7 +516,7 @@ supplement: "Figure",
 ]
 
 #figure([
-#box(image("media/Picture 5.jpg"))
+#box(image("media/Picture 5.png"))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -533,7 +533,7 @@ supplement: "Figure",
 ]
 
 #figure([
-#box(image("media/Picture 6.jpg"))
+#box(image("media/Picture 6.png"))
 ], caption: figure.caption(
 position: bottom, 
 [
@@ -550,7 +550,7 @@ supplement: "Figure",
 
 + Each framework has specific requirements for measurement and verification. IRIS+ and IMP emphasise standardised metrics and consistent data collection, with third-party audits often used for verification. SROI requires detailed data on inputs, outputs, and financial proxies, with stakeholder engagement and third-party validation. SPTF uses outreach and social responsibility indicators, with self-reporting and external audits. BIA involves a structured questionnaire and comprehensive assessment, verified through third-party audits for B Corp certification. The most widely accepted standards include IRIS+, IMP, and BIA, which are highly regarded globally among impact investors and financial institutions. SROI and SPTF are also gaining acceptance, particularly in the non-profit and microfinance sectors.
 
-+ Despite their wide acceptance, these frameworks often overlap in their methodologies and objectives. For example, IRIS+ and IMP share common elements in defining and standardising impact metrics. However, gaps remain in sector-specific metrics for niche areas and challenges in assigning monetary values to all social outcomes, as seen with SROI. Understanding these overlaps and gaps is crucial for developing a comprehensive and credible impact assessment strategy, ensuring investments align with broader social and environmental goals.
++ Despite their wide acceptance, these frameworks often overlap in their methodologies and objectives. For example, IRIS+ and IMP share common elements in defining and standardising impact metrics. However, gaps remain in sector-specific metrics for niche areas and challenges in assigning monetary values to all social outcomes, as seen with SROI. Understanding these overlaps and gaps is crucial for developing a comprehensive and credible impact assessment strategy, ensuring investments align with broader social and environmental goals. Furthermore, Standards differ in their approach to verification and certification. Some, like ISO standards, require formal verification to certify compliance with specific criteria, ensuring that organizations meet the established standard. Others, such as the Global Reporting Initiative (GRI), are primarily guidelines that companies align with, and verification may depend on regional regulations or organizational preferences—sometimes it is required, other times optional. Verification also varies in scope: standards like GRI verify the accuracy of reported statements, ISO standards verify compliance with detailed requirements, and frameworks like Science-Based Targets initiative (SBTi) assess whether an organization’s efforts genuinely aim to drive meaningful change.
 ]
 
 == Measurement and verification: climate change and GHG emissions
@@ -560,11 +560,6 @@ supplement: "Figure",
 + The Greenhouse Gas Protocol (GHG Protocol) and ISO 14064 are globally accepted standards and provide universal frameworks for measuring and managing emissions. The landscape of GHG accounting standards is broad, and some standards are more specific to certain regions due to factors like regulatory requirements, which entail adherence to local laws and policies. Market acceptance varies by region and is influenced by local stakeholder expectations and economic contexts. This regional differentiation ensures that standards align with unique environmental priorities, financial structures, and cultural factors, facilitating compliance and enhancing strategic implementation for organisations.
 
 + The GHG Protocol and ISO 14064 are mature and widely adopted standards that provide comprehensive frameworks. Their global acceptance and methodologies make them essential tools for organisations committed to transparency, regulatory compliance, and effective climate action. The GHG protocol provides comprehensive standards and guidelines for organisations to quantify and report their GHG emissions, covering various sectors and activities. It provides methodologies for calculating emissions from direct (Scope 1), indirect energy (Scope 2), and other indirect sources (Scope 3).
-
-  - ISO 14064 is an international standard developed by the International Organization for Standardization (ISO) that provides guidelines and requirements for greenhouse gas emissions and removals. ISO 14064 is divided into three parts:
-  - ISO 14064-1: Specifies principles and requirements for quantifying and reporting GHG emissions and removals at the organisation level.
-  - ISO 14064-2: Guides at the project level for quantifying, monitoring, and reporting GHG emission reductions or removal enhancements.
-  - ISO 14064-3 Offers guidelines for validating and verifying GHG assertions, ensuring the accuracy and reliability of GHG reports.
 
 + Other standards that focus on climate change and GHG emissions are outlined below:
 ]
@@ -589,7 +584,7 @@ supplement: "Figure",
 <measurement-and-verification-of-ecological-health>
 #block[
 #set enum(numbering: "1.", start: 29)
-+ Standards for measuring ecological health are essential for protecting and restoring biodiversity and ecosystem services. The frameworks focus on assessing and reporting the condition of natural assets such as soils, vegetation, and fauna. The following paragraphs introduces various ecological health standards and compares them, analysing their purpose, scope, market acceptance, strengths, and weaknesses to highlight their roles in impact measurement.
++ Standards for measuring ecological health are essential for protecting and restoring biodiversity and ecosystem services. The frameworks focus on assessing and reporting the condition of natural assets such as soils, water, vegetation, and fauna. The following paragraphs introduces various ecological health standards and compares them, analysing their purpose, scope, market acceptance, strengths, and weaknesses to highlight their roles in impact measurement.
 
 + Accounting for Nature is a framework designed to measure and report the condition of environmental assets, offering a standardised approach to assessing ecosystem health. It encompasses a wide range of natural resources, providing data to support informed decision-making in environmental management. Its science-based methodology aims to enhance the understanding and conservation of ecosystems, aligning with global environmental policies.
 
@@ -604,7 +599,7 @@ supplement: "Figure",
 
 #block[
 #set enum(numbering: "1.", start: 35)
-+ As outlined in the table below, other frameworks for nature-related measurement and verification have proliferated in recent years, with heterogenous conceptual foundations and scope.
++ As outlined in the table below, other frameworks for nature-related measurement and verification have proliferated in recent years, with heterogeneous conceptual foundations and scope.
 ]
 
 #block[
@@ -644,7 +639,7 @@ supplement: "Figure",
 #table(
   columns: (6.43%, 33.91%, 21.18%, 18.1%, 20.38%),
   align: (left,left,left,left,left,),
-  table.header([Framework], [Purpose.and.Coverage], [Average], [Measurement.and.Verification.Requirements], [Overlap.and.Gaps],),
+  table.header([Framework], [Purpose.Coverage], [Average], [MRV.Requirements], [Overlap.Gaps],),
   table.hline(),
   [IRIS+ by GIIN], [Provide a comprehensive catalog of social, environmental, and financial performance metrics. Global; diverse sectors such as education, healthcare, and economic development], [Standardised metrics, consistent data collection, self-assessment, third-party audits.], [Highly accepted globally among impact investors and financial institutions.], [Overlaps with other frameworks like IMP. Gaps in sector-specific metrics for niche areas.],
   [Social Performance Task Force (SPTF)], [Provides standards and guidelines for assessing social performance in microfinance and inclusive finance sectors. Global; specific to microfinance and inclusive finance sectors], [Indicators for outreach, client protection, social responsibility, self-reporting, external audits.], [Widely accepted in the microfinance sector.], [Overlaps with sector-specific stndards like the Universal Standards for Social Performance Management. Gaps in the broader financial inclusion metrics.],
@@ -748,54 +743,63 @@ supplement: "Figure",
 
 = Appendix
 <appendix>
-#figure([
-#box(image("media/Appendix4.png"))
-], caption: figure.caption(
-position: bottom, 
-[
-Overview of ESG Strategies
-]), 
-kind: "quarto-float-fig", 
-supplement: "Figure", 
+#block[
+#table(
+  columns: (11.31%, 34.17%, 5.53%, 15.33%, 17.59%, 16.08%),
+  align: (left,left,left,left,left,left,),
+  table.header([Strategy], [Description], [Geography], [Acceptance], [Weaknesses], [Strengths],),
+  table.hline(),
+  [Negative Screening], [Avoid the worst performers], [Global], [Widely accepted, especially in Europe], [May exclude potentially profitable investments], [Simple to implement, reduces reputational risk],
+  [Norms-based Screening], [Screening based on international norms and standards], [Global], [Growing acceptance, especially among institutional investors], [Can be subjective, may miss new emerging risks], [Aligns with international standards, enhances ethical alignment],
+  [Best-in-Class Selection / Positive Screening], [Investing in companies with superior ESG performance within their sector], [Global], [Widely accepted, especially in Europe], [Requires rigorous data and analysis, may lead to over-diversification], [Encourages industry leaders, promotes best practices],
+  [ESG Integration], [Integrating ESG factors into financial analysis and investment decisions], [Global], [Highly accepted, becoming standard practice], [Requires comprehensive data integration], [Holistic approach, aligns with overall corporate strategy],
+  [Proxy Voting], [Formally expressing approval or disapproval through voting on resolutions and proposing shareholder resolutions on specific ESG issues.], [Global], [Widely accepted, especially in activist funds], [Can be resource-intensive, may have slow impact], [Promotes active ownership, can lead to long-term improvements],
+  [Engagement], [Engaging with companies to influence their ESG practices], [Global], [Widely accepted, especially in activist funds], [Can be resource-intensive, may have slow impact], [Promotes active ownership, can lead to long-term improvements],
+  [ESG Momentum Investing], [Investing in companies improving their ESG performance], [Europe, North America], [Emerging strategy], [Requires detailed performance tracking], [Encourages continuous improvement, dynamic approach],
+  [Negative/Positive Tilt], [Adjusting portfolio weight based on ESG criteria], [Global], [Growing among passive and index investors], [Can lead to sub-optimal diversification], [Enhances ESG exposure, flexible implementation],
 )
-
-
-#figure([
-#box(image("media/Appendix3.png"))
-], caption: figure.caption(
-position: bottom, 
-[
-Overview of Impact Investment Strategies
-]), 
-kind: "quarto-float-fig", 
-supplement: "Figure", 
+]
+#block[
+#table(
+  columns: (8.36%, 22.6%, 8.67%, 17.65%, 18.58%, 24.15%),
+  align: (left,left,left,left,left,left,),
+  table.header([Strategy], [Description], [Geography], [Acceptance], [Weaknesses], [Strengths],),
+  table.hline(),
+  [Sustainability Themed], [Investing in themes or sectors related to sustainability], [Europe, Asia, North America], [High acceptance, especially in thematic funds], [Can be niche, might limit diversification], [Targets specific sustainability outcomes, appeals to impact-focused investors],
+  [Impact Investing], [Investing to generate measurable social or environmental impact], [Global], [Growing, especially among social impact funds], [Often involves higher risk, long time horizons], [Directly addresses social and environmental issues, measurable impact],
+  [Community Investing], [Direct investments in community development projects], [North America, Global], [Growing in popularity among socially conscious investors], [Higher risk, often lower returns], [Supports local communities, social impact],
+  [Transition Investing], [Supporting companies in transitioning to sustainable practices], [Europe, Asia], [Emerging strategy], [Risk of transition failure, can be capital intensive], [Facilitates sustainability transitions, can drive significant change],
+  [Climate Change Mitigation], [Investments aimed at reducing carbon emissions], [Global], [High acceptance among climate-focused funds], [May be narrow in focus, requires thorough impact assessment], [Addresses climate change directly, supports global goals],
+  [Circular Economy Investing], [Investing in companies promoting resource efficiency and waste reduction], [Europe, Asia], [Growing acceptance], [Can be niche, may require specific expertise], [Supports sustainable resource use, innovative business models],
+  [SDGs Investing], [Aligning investments with the UN’s Sustainable Development Goals], [Global], [Increasing, especially among impact investors], [Can be broad, difficult to measure impact], [Aligns with global development goals, broad impact],
 )
-
-
-#figure([
-#box(image("media/Appendix2.png"))
-], caption: figure.caption(
-position: bottom, 
-[
-Green Finance and Social Finance
-]), 
-kind: "quarto-float-fig", 
-supplement: "Figure", 
+]
+#block[
+#table(
+  columns: (7.39%, 29.23%, 3.52%, 18.66%, 16.55%, 24.65%),
+  align: (left,left,left,left,left,left,),
+  table.header([Strategy], [Description], [Geography], [Acceptance], [Weaknesses], [Strengths],),
+  table.hline(),
+  [Green Bonds], [Bonds specifically earmarked to fund projects with positive environmental benefits], [Global], [Increasing, especially among institutional investors], [Can be complex to assess impact], [Direct funding of environmental projects, transparent use of proceeds],
+  [Sustainability Bonds], [Bonds that finance both environmental and social projects], [Global], [Growing in acceptance], [Requires clear reporting and impact assessment], [Flexible funding for multiple sustainability projects],
+  [Climate Bonds], [Bonds aimed at raising capital for climate change mitigation/adaptation], [Global], [High acceptance among climate-focused funds], [Requires stringent verification], [Directly supports climate initiatives, transparent objectives],
+  [Social Bonds], [Bonds issued to raise funds for social projects], [Global], [Growing in social impact sectors], [Requires clear impact measurement], [Addresses social issues directly, transparent use of funds],
+  [Social Impact Bonds], [Pay-for-success bonds funding social programs with returns based on outcomes], [Global], [Emerging strategy, still developing acceptance], [Complex to structure, outcome-based risks], [Aligns financial returns with social outcomes],
 )
-
-
-#figure([
-#box(image("media/Appendix1.png"))
-], caption: figure.caption(
-position: bottom, 
-[
-Governance and Ethical Investing
-]), 
-kind: "quarto-float-fig", 
-supplement: "Figure", 
+]
+#block[
+#table(
+  columns: (10.65%, 31.62%, 3.44%, 14.78%, 19.24%, 20.27%),
+  align: (left,left,left,left,left,left,),
+  table.header([Strategy], [Description], [Geography], [Acceptance], [Weaknesses], [Strengths],),
+  table.hline(),
+  [Active Ownership], [Using shareholder power to influence corporate behavior through proxy voting and engagement], [Global], [Widely accepted in activist circles], [Resource-intensive, may face resistance from management], [Can drive significant corporate change, empowers investors],
+  [Corporate Governance Investing], [Focusing on companies with strong governance practices], [Global], [Growing among governance-focused funds], [May overlook environmental and social factors], [Enhances corporate governance, reduces governance risks],
+  [Faith-Based Investing], [Investments guided by religious or ethical beliefs], [Global], [Niche market, specific to certain groups], [Aligns with investor values, ethical alignment], [],
+  [Moral Investing], [Avoiding investments in industries or companies that contradict moral values], [Global], [Niche market, specific to certain beliefs], [Ensures investments reflect personal values], [],
+  [Venture Philanthropy], [Combining venture capital principles with philanthropy to maximize social impact], [Global], [Emerging, high potential for social impact], [Higher risk, may involve lower financial returns], [Maximizes social impact, innovative funding approach],
 )
-
-
+]
 
 
 
