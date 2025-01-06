@@ -88,7 +88,7 @@ citation:
 
 8.  In contrast, ESG reporting focuses on the broader disclosure of an organisation's environmental, social, and governance practices. Standards such as the Global Reporting Initiative (GRI), Sustainability Accounting Standards Board (SASB), Task Force on Climate-related Financial Disclosures (TCFD), and the Greenhouse Gas Protocol (GHG Protocol) help organisations provide structured and transparent information on their ESG performance, manage related risks, and ensure regulatory compliance. Integrating various strategies within AIX could be beneficial to ensure robust impact measurement and verification, enhancing credibility and effectiveness in driving sustainable development:
 
-![Methodology for market studies on sustainability-related investments. Source: <https://www.eurosif.org/wp-content/uploads/2024/02/2024.02.15-Final-Report-Eurosif-Classification_2024.pdf>](media/Picture%202.png)
+![Methodology for market studies on sustainability-related investments. Source: <https://www.eurosif.org/wp-content/uploads/2024/02/2024.02.15-Final-Report-Eurosif-Classification_2024.pdf>](media/Picture%202.jpg)
 
 9.  The AIX will need to adhere to the characteristics of each asset and strategy to ensure investments deliver verified social and environmental outcomes alongside financial returns. The assessment should be conducted before investment, with ongoing reporting to measure impact during the investment and the use of appropriate reporting standards for communicating effect in the form of reporting.
 
@@ -160,11 +160,11 @@ kable(data[1:7, ], caption = "Overview of Climate-related Disclosure and Reporti
 
 21. The figure below illustrates the role of guiding principles and frameworks for ESG investment assessment from an investor perspective. Their associated indices and assessment support tools are crucial for investors looking to integrate ESG factors into their investment decisions. They help investors assess their portfolio’s sustainability and ethical impacts, driving informed investment strategies.
 
-![Role of guiding principles and frameworks for ESG investment assessment](media/Picture%205.jpg)
+![Role of guiding principles and frameworks for ESG investment assessment](media/Picture%205.png)
 
 22. Impact investment refers to investments made to generate positive, measurable social and environmental benefits alongside a financial return (Godeke & Briaud, 2021; Bundesinitiative Impact Investing; GIIN, 2022). The figure below illustrates the role of key guiding principles and frameworks for assessment of impact investment performance, alongside key measurement and verification approaches.
 
-![Role of guiding principles and frameworks for ESG investment assessment](media/Picture%206.jpg)
+![Role of guiding principles and frameworks for ESG investment assessment](media/Picture%206.png)
 
 23. IRIS+ provides a comprehensive global catalogue of metrics impact investors use to measure social, environmental, and financial performance across sectors such as education, healthcare, and economic development. SROI translates social outcomes into monetary values, offering a method to measure social value created by investments in various sectors, including community development and healthcare. SPTF focuses on assessing social performance in the microfinance sector, while BIA evaluates companies' social and environmental performance, emphasising governance, workers, community, environment, and customers. IMP provides a consensus on measuring, managing, and reporting impacts on people and the planet, covering multiple sectors and impact themes.
 
