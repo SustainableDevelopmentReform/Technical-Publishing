@@ -110,7 +110,7 @@ citation:
 
 15. The following paragraphs discuss different groups of impact dimensions, relevant standards, and guiding frameworks for impact and ESG assessment, where applicable across the following general tiers:
 
-![Illustrative tiers of analytical approaches to impact and ESG assessment](media/Picture%204.jpg)
+![Illustrative tiers of analytical approaches to impact and ESG assessment](media/Picture%204.png)
 
 16. Dividing the structure of the impact assessment within the AIX, pursuant to categories such as those shown in Tier 3 makes is easier to identify and apply the applicable standards for specific types of measurement and verification.
 
