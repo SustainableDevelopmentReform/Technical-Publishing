@@ -5,7 +5,7 @@ manuscript:
   article: index.qmd
 
 format:
-#  html:
+  html: default
 #    comments:
 #      hypothesis: true
   docx: default
