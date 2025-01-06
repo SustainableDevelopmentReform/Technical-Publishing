@@ -350,10 +350,98 @@ kable(data[1:10, ], caption = "Overview of Measurement and Verification Framewor
 
 # Appendix
 
-![Overview of ESG Strategies](media/Appendix4.png)
+### Overview of ESG Strategies
 
-![Overview of Impact Investment Strategies](media/Appendix3.png)
+```{=html}
+<!--- This code reads a table from a csv file and displays it at the desired font size. Change the header.tex for PDF output
+-->
+```
 
-![Green Finance and Social Finance](media/Appendix2.png)
+```{css echo = FALSE}
+.small .table {font-size: 10px;}
+```
 
-![Governance and Ethical Investing](media/Appendix1.png)
+::: small
+```{r echo = FALSE, results = 'asis'}
+data <- read.csv(file = "Figure-7.csv")
+library(knitr)
+kable(data[1:10, ], caption = "Overview of Measurement and Verification Frameworks for Social Impact.")
+```
+:::
+
+```{=html}
+<!--- End of code snippet
+-->
+```
+
+### Overview of Impact Investment Strategies
+
+```{=html}
+<!--- This code reads a table from a csv file and displays it at the desired font size. Change the header.tex for PDF output
+-->
+```
+
+```{css echo = FALSE}
+.small .table {font-size: 10px;}
+```
+
+::: small
+```{r echo = FALSE, results = 'asis'}
+data <- read.csv(file = "Figure-8.csv")
+library(knitr)
+kable(data[1:10, ], caption = "Overview of Measurement and Verification Frameworks for Social Impact.")
+```
+:::
+
+```{=html}
+<!--- End of code snippet
+-->
+```
+
+### Green Finance and Social Finance
+
+```{=html}
+<!--- This code reads a table from a csv file and displays it at the desired font size. Change the header.tex for PDF output
+-->
+```
+
+```{css echo = FALSE}
+.small .table {font-size: 10px;}
+```
+
+::: small
+```{r echo = FALSE, results = 'asis'}
+data <- read.csv(file = "Figure-9.csv")
+library(knitr)
+kable(data[1:10, ], caption = "Overview of Measurement and Verification Frameworks for Social Impact.")
+```
+:::
+
+```{=html}
+<!--- End of code snippet
+-->
+```
+
+### Governance and Ethical Investing
+
+```{=html}
+<!--- This code reads a table from a csv file and displays it at the desired font size. Change the header.tex for PDF output
+-->
+```
+
+```{css echo = FALSE}
+.small .table {font-size: 10px;}
+```
+
+::: small
+```{r echo = FALSE, results = 'asis'}
+data <- read.csv(file = "Figure-10.csv")
+library(knitr)
+kable(data[1:10, ], caption = "Overview of Measurement and Verification Frameworks for Social Impact.")
+```
+:::
+
+```{=html}
+<!--- End of code snippet
+-->
+```
