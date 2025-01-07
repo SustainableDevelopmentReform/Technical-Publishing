@@ -48,9 +48,8 @@ citation:
 
         -   Transparently document their definitional foundations, input data and assessment methods. Low-level definitions should be aligned with the System of Environmental-Economic Accounting @united_nations_statistics_division_2024 as appropriate, in particular to avoid confusion between measurement of environmental stocks (e.g. the extent and/or condition of specific ecosystem types aligned to the IUCN Global Ecosystem Typology) and flows of goods and services from the environment to the economy (e.g. carbon sequestration, regulation of waste, flows of raw materials)–see Figure 1 below. 
 
-        -   Clearly document their functional, geographical and value chain scope coverage (e.g. 1+2 vs 3) and use pre-defined categories aligned to the SEEA and other relevant global statistical standards. 
+        -   Clearly document their functional, geographical and value chain scope coverage (e.g. 1+2 vs 3) and use pre-defined categories aligned to the SEEA and other relevant global statistical standards.  
         
-
 -   We also suggest that a standing technical committee should be incorporated into the governance planning for the AIX with a clear remit to iteratively refine and develop meta-standards concerning social and environmental outcome disclosure, and facilitate pre-competitive dialogue between different frameworks, standards and approaches.
 
 -   A pragmatic alternative to the “meta-standards” approach suggested above would be to establish an Impact Exchange based on clear social and environmental outcome metrics for which there is short-term market demand. One advantage of this approach is the ability to generate liquidity and positive margins that could be reinvested into improving and scaling the Impact Exchange. A key risk is that metrics may evolve in response to ad hoc demand drivers without sufficient attention to generating the coherence, robustness and transparency needed to bring investment in environmental and social outcomes to scale. The fundamental structural deficiencies of both voluntary and statutory carbon markets identified in recent years offers a pertinent cautionary tale.[^1]
