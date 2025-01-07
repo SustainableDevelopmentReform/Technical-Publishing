@@ -289,7 +289,7 @@
   stroke: none
 )
 #show table: it => {
-  set text(size: 7pt)
+  set text(size: 5pt)
   set par (
     justify: false
   )
@@ -309,13 +309,13 @@
   title: [Measurement and verification of environmental and social outcomes for a proposed Australian Impact Exchange],
   authors: (
     ( name: [Arlette Schramm],
-      affiliation: [UNSW Centre for Sustainable Development Reform],
+      affiliation: [Centre for Sustainable Development Reform, University of New South Wales (UNSW-CSDR)],
       email: [] ),
     ( name: [Marianne Feoli],
-      affiliation: [UNSW Centre for Sustainable Development Reform],
+      affiliation: [UNSW-CSDR],
       email: [] ),
     ( name: [Ben Milligan],
-      affiliation: [UNSW Centre for Sustainable Development Reform],
+      affiliation: [UNSW-CSDR],
       email: [b.milligan\@unsw.edu.au] ),
     ),
   date: [2025-01-07],

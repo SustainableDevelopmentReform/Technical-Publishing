@@ -5,16 +5,16 @@ shortauthors: UNSW CSDR
 authors:
   - name: Arlette Schramm
     affiliations:
-      - UNSW Centre for Sustainable Development Reform
+      - Centre for Sustainable Development Reform, University of New South Wales (UNSW-CSDR)
   - name: Marianne Feoli
     affiliations:
-      - UNSW Centre for Sustainable Development Reform
+      - UNSW-CSDR
   - name: Ben Milligan
     orcid: 0000-0003-1313-3956
     corresponding: true
     email: b.milligan@unsw.edu.au
     affiliations:
-      - UNSW Centre for Sustainable Development Reform
+      - UNSW-CSDR
 keywords: 
   - Sustainability Metrics
   - Market Exchanges
@@ -151,7 +151,7 @@ citation:
 ```
 
 ```{css echo = FALSE}
-.small .table {font-size: 9px;}
+.small .table {font-size: 11px;}
 ```
 
 ::: small

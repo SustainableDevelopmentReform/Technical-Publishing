@@ -17,7 +17,7 @@ format:
     template: template.typ
     header-includes: |
       #show table: it => {
-        set text(size: 7pt)
+        set text(size: 5pt)
         set par (
           justify: false
         )
