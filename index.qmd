@@ -23,7 +23,7 @@ citation:
   type: report
   container-title: CSDR Discussion Papers
   issued: last-modified
-  doi: 10.1128/AEM.02591-07
+  doi: 10.1128/AEM.02591-0
 ---
 
 # Key findings
