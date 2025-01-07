@@ -45,7 +45,7 @@ format:
       right: 2cm
 
 execute:
-  freeze: true
+  freeze: auto
 
 editor: visual
 
