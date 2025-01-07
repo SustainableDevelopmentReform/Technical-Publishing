@@ -289,7 +289,7 @@
   stroke: none
 )
 #show table: it => {
-  set text(size: 5pt)
+  set text(size: 7pt)
   set par (
     justify: false
   )
@@ -319,7 +319,7 @@
       email: [b.milligan\@unsw.edu.au] ),
     ),
   date: [2025-01-07],
-  abstract: [Impact Exchanges require distinct measurement frameworks across asset classes (equities and corporate debt, commodities, and alternative investments) due to fundamental differences in how environmental and social outcomes are quantified, verified, and reported within each market segment. We propose use of a "meta-standards" approach for incorporating measurement of environmental and social outcomes—establishing overarching principles for outcome measurement while allowing methodological flexibility - supported by a technical committee to ensure market integrity and framework interoperability. Short-term market demands for simple metrics must be balanced against systemic risks, as evidenced by carbon markets where inadequate standardization and verification led to market fragmentation and credibility issues.],
+  abstract: [Impact Exchanges require distinct measurement frameworks across asset classes (equities and corporate debt, commodities, and alternative investments) due to fundamental differences in how environmental and social outcomes are quantified, verified, and reported within each market segment. We propose use of a "meta-standards" approach for incorporating measurement of environmental and social outcomes—establishing overarching principles for outcome measurement while allowing methodological flexibility—supported by a technical committee to ensure market integrity and framework interoperability. Short-term market demands for simple metrics must be balanced against systemic risks, as evidenced by carbon markets where inadequate standardization and verification led to market fragmentation and credibility issues.],
   abstract-title: "Summary.",
   margin: (bottom: 2cm,left: 2cm,right: 2cm,top: 2cm,),
   paper: "a4",
@@ -499,9 +499,9 @@ supplement: "Figure",
 
 #block[
 #table(
-  columns: (2.49%, 18.15%, 16.37%, 17.79%, 27.76%, 17.44%),
+  columns: 6,
   align: (left,left,left,left,left,left,),
-  table.header([Region], [Standard], [Scope], [Coverage], [Purpose], [Market.Acceptance],),
+  table.header([Region], [Standard], [Scope], [Coverage], [Purpose], [Uptake],),
   table.hline(),
   [Global], [Taskforce on Climate-related Financial Disclosures], [Climate-related financial disclosures], [Climate risk and opportunities], [Provide recommendations for diclosing climate-related risks and opportunities], [Wide adopted espectially in finance],
   [Global], [Carbon Disclosure Project], [Climate and environmental reporting], [Climate change, water, security, deforestation], [Enable compnaies to measure and manage their environmental impacts], [Widely used globally],
@@ -568,9 +568,9 @@ supplement: "Figure",
 
 #block[
 #table(
-  columns: (4.73%, 18.18%, 22.91%, 9.82%, 26.91%, 17.45%),
+  columns: 6,
   align: (left,left,left,left,left,left,),
-  table.header([Region], [Standard], [Scope], [Coverage], [Purpose], [Market.Acceptance],),
+  table.header([Region], [Standard], [Scope], [Coverage], [Purpose], [Uptake],),
   table.hline(),
   [Global], [Greenhouse Gas Protocol (GHG Protocol)], [Corporate, Project, Value Chain (Scope 1, 2, 3)], [Global], [Provide standardized approach for GHG accounting transparency consistency], [Widely adopted by businesses, governments, NGOs],
   [Global], [ISO 14064], [Organization (Part 1), Project (Part 2), Verification (Part 3)], [Global], [Guidelines for quantifying, reporting, and verifying GHG emissions], [Widely recognized and implemented globally],
@@ -606,9 +606,9 @@ supplement: "Figure",
 
 #block[
 #table(
-  columns: (10.4%, 17.92%, 19.08%, 15.32%, 18.79%, 18.5%),
+  columns: 6,
   align: (left,left,left,left,left,left,),
-  table.header([Framework], [Purpose], [Scope], [Market.acceptance], [Strengths], [Weaknesses],),
+  table.header([Framework], [Purpose], [Scope], [Uptake], [Strengths], [Weaknesses],),
   table.hline(),
   [UN CBD Indicators], [Measures and monitors biodiversity], [Species populations, habitat extent, ecosystem health], [High; used globally for biodiversity targets], [Provides broad biodiversity indicators], [May lack specificity for detailed ecosystem health assessments],
   [IUCN Red List of Ecosystems], [Assesses conservation status of ecosystems], [Risk of ecosystem collapse], [High; recognized globally], [Standardized risk assessment for ecosystems], [Primarily focused on risk, not comprehensive health metrics],
@@ -639,9 +639,9 @@ supplement: "Figure",
 
 #block[
 #table(
-  columns: (6.43%, 33.91%, 21.18%, 18.1%, 20.38%),
+  columns: 5,
   align: (left,left,left,left,left,),
-  table.header([Framework], [Purpose.Coverage], [Average], [MRV.Requirements], [Overlap.Gaps],),
+  table.header([Framework], [Focus], [Average], [MRV], [Overlap.Gaps],),
   table.hline(),
   [IRIS+ by GIIN], [Provide a comprehensive catalog of social, environmental, and financial performance metrics. Global; diverse sectors such as education, healthcare, and economic development], [Standardised metrics, consistent data collection, self-assessment, third-party audits.], [Highly accepted globally among impact investors and financial institutions.], [Overlaps with other frameworks like IMP. Gaps in sector-specific metrics for niche areas.],
   [Social Performance Task Force (SPTF)], [Provides standards and guidelines for assessing social performance in microfinance and inclusive finance sectors. Global; specific to microfinance and inclusive finance sectors], [Indicators for outreach, client protection, social responsibility, self-reporting, external audits.], [Widely accepted in the microfinance sector.], [Overlaps with sector-specific stndards like the Universal Standards for Social Performance Management. Gaps in the broader financial inclusion metrics.],
@@ -747,7 +747,7 @@ supplement: "Figure",
 <appendix>
 #block[
 #table(
-  columns: (11.31%, 34.17%, 5.53%, 15.33%, 17.59%, 16.08%),
+  columns: 6,
   align: (left,left,left,left,left,left,),
   table.header([Strategy], [Description], [Geography], [Acceptance], [Weaknesses], [Strengths],),
   table.hline(),
@@ -763,7 +763,7 @@ supplement: "Figure",
 ]
 #block[
 #table(
-  columns: (8.36%, 22.6%, 8.67%, 17.65%, 18.58%, 24.15%),
+  columns: 6,
   align: (left,left,left,left,left,left,),
   table.header([Strategy], [Description], [Geography], [Acceptance], [Weaknesses], [Strengths],),
   table.hline(),
@@ -778,7 +778,7 @@ supplement: "Figure",
 ]
 #block[
 #table(
-  columns: (7.39%, 29.23%, 3.52%, 18.66%, 16.55%, 24.65%),
+  columns: 6,
   align: (left,left,left,left,left,left,),
   table.header([Strategy], [Description], [Geography], [Acceptance], [Weaknesses], [Strengths],),
   table.hline(),
@@ -791,7 +791,7 @@ supplement: "Figure",
 ]
 #block[
 #table(
-  columns: (10.65%, 31.62%, 3.44%, 14.78%, 19.24%, 20.27%),
+  columns: 6,
   align: (left,left,left,left,left,left,),
   table.header([Strategy], [Description], [Geography], [Acceptance], [Weaknesses], [Strengths],),
   table.hline(),
