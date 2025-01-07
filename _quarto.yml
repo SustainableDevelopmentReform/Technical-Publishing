@@ -16,6 +16,7 @@ format:
   typst: 
     template: template.typ
     header-includes: |
+      #set bibliography(title: "References")
       #show table: it => {
         set text(size: 7pt)
         set par (

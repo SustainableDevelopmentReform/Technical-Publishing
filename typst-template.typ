@@ -1,5 +1,3 @@
-
-
 #let article(
   title: none,
   subtitle: none,
@@ -39,7 +37,7 @@
            region: region,
            font: font,
            size: fontsize)
-  set heading(numbering: sectionnumbering) (BM this is original)
+  set heading(numbering: sectionnumbering) // (BM this is original)
   
   if title != none {
     align(center)[#block(inset: 2em)[
@@ -112,9 +110,3 @@
     columns(cols, doc)
   }
 }
-
-#set table(
-  inset: 6pt,
-  stroke: none,
-  set text(size: table-fontsize) // another BM Hack
-)

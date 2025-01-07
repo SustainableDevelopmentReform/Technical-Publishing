@@ -288,6 +288,7 @@
   inset: 6pt,
   stroke: none
 )
+#set bibliography(title: "References")
 #show table: it => {
   set text(size: 7pt)
   set par (
@@ -318,9 +319,9 @@
       affiliation: [UNSW-CSDR],
       email: [b.milligan\@unsw.edu.au] ),
     ),
-  date: [2025-01-07],
+  date: [2024-12-20],
   abstract: [Impact Exchanges require distinct measurement frameworks across asset classes (equities and corporate debt, commodities, and alternative investments) due to fundamental differences in how environmental and social outcomes are quantified, verified, and reported within each market segment. We propose use of a "meta-standards" approach for incorporating measurement of environmental and social outcomes—establishing overarching principles for outcome measurement while allowing methodological flexibility—supported by a technical committee to ensure market integrity and framework interoperability. Short-term market demands for simple metrics must be balanced against systemic risks, as evidenced by carbon markets where inadequate standardization and verification led to market fragmentation and credibility issues.],
-  abstract-title: "Summary.",
+  abstract-title: "Summary:",
   margin: (bottom: 2cm,left: 2cm,right: 2cm,top: 2cm,),
   paper: "a4",
   fontsize: 10pt,
