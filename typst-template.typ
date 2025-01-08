@@ -62,19 +62,16 @@
   }
 
   if authors != none {
-    let count = authors.len()
-    let ncols = calc.min(count, 3)
-    grid(
-      columns: (1fr,) * ncols,
-      row-gutter: 1.5em,
-      ..authors.map(author =>
-          align(center)[
-            #author.name \
-            #author.affiliation \
-            #author.email
-          ]
-      )
-    )
+    block(inset: 2em)[
+      #for (i, author) in authors.enumerate() {
+        [*#author.name*]
+        if author.affiliation != "" [, #author.affiliation]
+        if author.email != "" [, #author.email]
+        if i < authors.len() - 1 [
+          #linebreak()
+        ]
+      }
+    ]
   }
 
   if date != none {

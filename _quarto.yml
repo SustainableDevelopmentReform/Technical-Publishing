@@ -14,9 +14,22 @@ format:
   # (other formats)
   # pdf: default
   typst: 
-    template: template.typ
+    template: "template.typ"
+    template-partials:
+      - "definitions.typ"
+      - "typst-template.typ"
+      - "typst-show.typ"
+      - "biblio.typ"
+      - "notes.typ"
     header-includes: |
       #set bibliography(title: "References")
+      #set table(
+        stroke: (
+          x: .1pt,
+          y: .1pt
+        ),
+        fill: (x, y) => if y == 0 { rgb(245, 245, 245) }
+      )
       #show table: it => {
         set text(size: 7pt)
         set par (
