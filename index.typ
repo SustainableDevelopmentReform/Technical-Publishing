@@ -42,6 +42,10 @@
   return block.with(..fields)(new_content)
 }
 
+#let unescape-eval(str) = {
+  return eval(str.replace("\\", ""))
+}
+
 #let empty(v) = {
   if type(v) == "string" {
     // two dollar signs here because we're technically inside
@@ -171,8 +175,6 @@
     )
 }
 
-
-
 #let article(
   title: none,
   subtitle: none,
@@ -187,6 +189,7 @@
   region: "US",
   font: "linux libertine",
   fontsize: 11pt,
+  table-fontsize: 0.5em, // BM Hack
   title-size: 1.5em,
   subtitle-size: 1.25em,
   heading-family: "linux libertine",
@@ -211,7 +214,8 @@
            region: region,
            font: font,
            size: fontsize)
-  set heading(numbering: sectionnumbering)
+  set heading(numbering: sectionnumbering) // (BM this is original)
+  
   if title != none {
     align(center)[#block(inset: 2em)[
       #set par(leading: heading-line-height)
@@ -235,19 +239,16 @@
   }
 
   if authors != none {
-    let count = authors.len()
-    let ncols = calc.min(count, 3)
-    grid(
-      columns: (1fr,) * ncols,
-      row-gutter: 1.5em,
-      ..authors.map(author =>
-          align(center)[
-            #author.name \
-            #author.affiliation \
-            #author.email
-          ]
-      )
-    )
+    block(inset: 2em)[
+      #for (i, author) in authors.enumerate() {
+        [*#author.name*]
+        if author.affiliation != "" [, #author.affiliation]
+        if author.email != "" [, #author.email]
+        if i < authors.len() - 1 [
+          #linebreak()
+        ]
+      }
+    ]
   }
 
   if date != none {
@@ -283,10 +284,13 @@
     columns(cols, doc)
   }
 }
-
+#set bibliography(title: "References")
 #set table(
-  inset: 6pt,
-  stroke: none
+  stroke: (
+    x: .1pt,
+    y: .1pt
+  ),
+  fill: (x, y) => if y == 0 { rgb(245, 245, 245) }
 )
 #show table: it => {
   set text(size: 7pt)
@@ -309,18 +313,18 @@
   title: [Measurement and verification of environmental and social outcomes for a proposed Australian Impact Exchange],
   authors: (
     ( name: [Arlette Schramm],
-      affiliation: [Centre for Sustainable Development Reform, University of New South Wales (UNSW-CSDR)],
+      affiliation: [UNSW Centre for Sustainable Development Reform],
       email: [] ),
     ( name: [Marianne Feoli],
-      affiliation: [UNSW-CSDR],
+      affiliation: [UNSW Centre for Sustainable Development Reform],
       email: [] ),
     ( name: [Ben Milligan],
-      affiliation: [UNSW-CSDR],
+      affiliation: [UNSW Centre for Sustainable Development Reform],
       email: [b.milligan\@unsw.edu.au] ),
     ),
-  date: [2025-01-07],
+  date: [2024-12-20],
   abstract: [Impact Exchanges require distinct measurement frameworks across asset classes (equities and corporate debt, commodities, and alternative investments) due to fundamental differences in how environmental and social outcomes are quantified, verified, and reported within each market segment. We propose use of a "meta-standards" approach for incorporating measurement of environmental and social outcomes—establishing overarching principles for outcome measurement while allowing methodological flexibility—supported by a technical committee to ensure market integrity and framework interoperability. Short-term market demands for simple metrics must be balanced against systemic risks, as evidenced by carbon markets where inadequate standardization and verification led to market fragmentation and credibility issues.],
-  abstract-title: "Summary.",
+  abstract-title: "Summary:",
   margin: (bottom: 2cm,left: 2cm,right: 2cm,top: 2cm,),
   paper: "a4",
   fontsize: 10pt,
@@ -370,6 +374,7 @@ Conceptual basis for organising environmental, social and economic metrics align
 kind: "quarto-float-fig", 
 supplement: "Figure", 
 )
+<fig-SEEA>
 
 
 = Introduction
@@ -408,6 +413,7 @@ Methodology for market studies on sustainability-related investments. Source: #c
 kind: "quarto-float-fig", 
 supplement: "Figure", 
 )
+<fig-market>
 
 
 #block[
@@ -445,6 +451,7 @@ Interconnectedness of IRIS+ Impact Categories and Themes as of May 2021. Source:
 kind: "quarto-float-fig", 
 supplement: "Figure", 
 )
+<fig-iris>
 
 
 #block[
@@ -462,6 +469,7 @@ Illustrative tiers of analytical approaches to impact and ESG assessment
 kind: "quarto-float-fig", 
 supplement: "Figure", 
 )
+<fig-approaches>
 
 
 #block[
@@ -498,6 +506,7 @@ supplement: "Figure",
 ]
 
 #block[
+#figure([
 #table(
   columns: 6,
   align: (left,left,left,left,left,left,),
@@ -511,6 +520,17 @@ supplement: "Figure",
   [Global], [Climate Disclosure Standards Board], [Climate-related financial disclosures], [Environmental information], [Integrate climate-related information into mainstream financial reporting], [Increasingly recognised globally],
   [Global], [Global Reporting Initiative], [Sustainability reporting standards], [environmental, social, governance], [Provide comprehensive sustainability reporting guidelines], [Widely used globally],
 )
+], caption: figure.caption(
+position: top, 
+[
+Overview of Climate-related Disclosure and Reporting Standards
+]), 
+kind: "quarto-float-tbl", 
+supplement: "Table", 
+)
+<tbl-standards>
+
+
 ]
 #block[
 #set enum(numbering: "1.", start: 21)
@@ -527,6 +547,7 @@ Role of guiding principles and frameworks for ESG investment assessment
 kind: "quarto-float-fig", 
 supplement: "Figure", 
 )
+<fig-ESG>
 
 
 #block[
@@ -539,11 +560,12 @@ supplement: "Figure",
 ], caption: figure.caption(
 position: bottom, 
 [
-Role of guiding principles and frameworks for ESG investment assessment
+Role of guiding principles and frameworks for impact investment assessment
 ]), 
 kind: "quarto-float-fig", 
 supplement: "Figure", 
 )
+<fig-impact>
 
 
 #block[
@@ -567,6 +589,7 @@ supplement: "Figure",
 ]
 
 #block[
+#figure([
 #table(
   columns: 6,
   align: (left,left,left,left,left,left,),
@@ -581,6 +604,17 @@ supplement: "Figure",
   [Americas], [Climate Registry General Reporting Protocol (GRP)], [Voluntary GHG reporting], [Americas], [Standardize GHG emissions reporting for voluntary programs], [Widely used in North America],
   [Asia Pacific], [Japan’s GHG Accounting and Reporting System], [Mandatory GHG reporting], [Japan], [Regulatory compliance and GHG management], [Major regulation in Japan],
 )
+], caption: figure.caption(
+position: top, 
+[
+Overview of Climate Change and GHG Emissions Measurement and Verification Frameworks
+]), 
+kind: "quarto-float-tbl", 
+supplement: "Table", 
+)
+<tbl-emissions>
+
+
 ]
 == Measurement and verification of ecological health
 <measurement-and-verification-of-ecological-health>
@@ -605,6 +639,7 @@ supplement: "Figure",
 ]
 
 #block[
+#figure([
 #table(
   columns: 6,
   align: (left,left,left,left,left,left,),
@@ -618,6 +653,17 @@ supplement: "Figure",
   [Biodiversity Intactness Index (BII)], [Measures the intactness of biodiversity in a region], [Biodiversity at species level], [Growing in conservation research], [Effective for monitoring biodiversity changes], [Focused primarily on biodiversiy, not broader ecological health],
   [Accounting for Nature], [Measures and reports on the condition of environmental assets], [Ecological health of natural resources (soils, vegetation, fauna)], [Emerging; primarily in Australia, expanding globally], [Standardised ecological health metrics; comprehensive assessment], [Limited broader application until further refinement globally],
 )
+], caption: figure.caption(
+position: top, 
+[
+Overview of Measurement and Verification Frameworks focused on Ecological Health
+]), 
+kind: "quarto-float-tbl", 
+supplement: "Table", 
+)
+<tbl-health>
+
+
 ]
 #block[
 #set enum(numbering: "1.", start: 36)
@@ -638,6 +684,7 @@ supplement: "Figure",
 ]
 
 #block[
+#figure([
 #table(
   columns: 5,
   align: (left,left,left,left,left,),
@@ -654,6 +701,17 @@ supplement: "Figure",
   [UNEP-FI Corporate Impact Analysis Tool (CIAT)], [Enables financial institutions to assess the corporate impact of clients and investee companies. Based on the Positive Impact Approach, it is designed for use by larger concerns (Middle Market, Corporates, and MNCs).], [Structured Excel spreadsheet with various tabs explaining methodology and use, scoring system with pre-determined and user-picked weights and guidelines.], [Growing acceptance among large corporations and financial institutions.], [Overlaps with other corporate impact assessment tools. Gaps in tailored metrics for smaller enterprises and specific sectors.],
   [UNEP-FI Portfolio Impact Analysis Tool (PIAT)], [Targets banks, assesses the impact of a given bank’s portfolio, helps banks report and shape their portfolios for positive impact over time. Uses the 22 areas of the Impact Radar.], [Input spreadsheets for Bank Cartography and Country Needs Scores, coupled with predefined impact maps and user inputs to assess positive and negative impacts], [High acceptance among banks, particularly those committed to the PRB framework.], [Overlaps with other banking-specific impact assessment tools. Gaps in comprehensive sector-specific metrics for non-banking financial institutions.],
 )
+], caption: figure.caption(
+position: top, 
+[
+Overview of Measurement and Verification Frameworks for Social Impact
+]), 
+kind: "quarto-float-tbl", 
+supplement: "Table", 
+)
+<tbl-impact>
+
+
 ]
 = Market growth and reporting trends in sustainable investing
 <market-growth-and-reporting-trends-in-sustainable-investing>
@@ -746,6 +804,7 @@ supplement: "Figure",
 = Appendix
 <appendix>
 #block[
+#figure([
 #table(
   columns: 6,
   align: (left,left,left,left,left,left,),
@@ -760,8 +819,20 @@ supplement: "Figure",
   [ESG Momentum Investing], [Investing in companies improving their ESG performance], [Europe, North America], [Emerging strategy], [Requires detailed performance tracking], [Encourages continuous improvement, dynamic approach],
   [Negative/Positive Tilt], [Adjusting portfolio weight based on ESG criteria], [Global], [Growing among passive and index investors], [Can lead to sub-optimal diversification], [Enhances ESG exposure, flexible implementation],
 )
+], caption: figure.caption(
+position: top, 
+[
+Overview of ESG Strategies
+]), 
+kind: "quarto-float-tbl", 
+supplement: "Table", 
+)
+<tbl-ESGS>
+
+
 ]
 #block[
+#figure([
 #table(
   columns: 6,
   align: (left,left,left,left,left,left,),
@@ -775,8 +846,20 @@ supplement: "Figure",
   [Circular Economy Investing], [Investing in companies promoting resource efficiency and waste reduction], [Europe, Asia], [Growing acceptance], [Can be niche, may require specific expertise], [Supports sustainable resource use, innovative business models],
   [SDGs Investing], [Aligning investments with the UN’s Sustainable Development Goals], [Global], [Increasing, especially among impact investors], [Can be broad, difficult to measure impact], [Aligns with global development goals, broad impact],
 )
+], caption: figure.caption(
+position: top, 
+[
+Overview of Impact Investment Strategies
+]), 
+kind: "quarto-float-tbl", 
+supplement: "Table", 
+)
+<tbl-IIS>
+
+
 ]
 #block[
+#figure([
 #table(
   columns: 6,
   align: (left,left,left,left,left,left,),
@@ -788,8 +871,20 @@ supplement: "Figure",
   [Social Bonds], [Bonds issued to raise funds for social projects], [Global], [Growing in social impact sectors], [Requires clear impact measurement], [Addresses social issues directly, transparent use of funds],
   [Social Impact Bonds], [Pay-for-success bonds funding social programs with returns based on outcomes], [Global], [Emerging strategy, still developing acceptance], [Complex to structure, outcome-based risks], [Aligns financial returns with social outcomes],
 )
+], caption: figure.caption(
+position: top, 
+[
+Overview of Green Finance and Social Finance
+]), 
+kind: "quarto-float-tbl", 
+supplement: "Table", 
+)
+<tbl-GFSF>
+
+
 ]
 #block[
+#figure([
 #table(
   columns: 6,
   align: (left,left,left,left,left,left,),
@@ -801,6 +896,17 @@ supplement: "Figure",
   [Moral Investing], [Avoiding investments in industries or companies that contradict moral values], [Global], [Niche market, specific to certain beliefs], [Ensures investments reflect personal values], [],
   [Venture Philanthropy], [Combining venture capital principles with philanthropy to maximize social impact], [Global], [Emerging, high potential for social impact], [Higher risk, may involve lower financial returns], [Maximizes social impact, innovative funding approach],
 )
+], caption: figure.caption(
+position: top, 
+[
+Overview of Governance and Ethical Investing
+]), 
+kind: "quarto-float-tbl", 
+supplement: "Table", 
+)
+<tbl-GEI>
+
+
 ]
 
 
